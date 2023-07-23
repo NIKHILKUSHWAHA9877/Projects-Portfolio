@@ -1367,3 +1367,32 @@ font-weight: bolder;
     color: var(--color-gray);
     margin-top: 0% !important;
 }
+
+body{
+cursor: none;
+
+}
+.cursor-dot {
+height: 5px;
+background-color: white;
+width: 5px;
+
+}
+.cursor-outline{
+border: 3px solid   #14e956;;
+height: 30px;
+    width: 30px;
+}
+
+.cursor-dot , .cursor-outline{
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50% , -50%);
+border-radius: 50%;
+z-index: 1;
+pointer-events: none;
+
+}
